@@ -6,7 +6,7 @@ Watch and autoprefix less files.
 
 ## installation
 
-`npm install gulp -g`
+`npm install gulp -g`  
 `npm install`
 
 ## usage
