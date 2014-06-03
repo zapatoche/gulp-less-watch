@@ -19,7 +19,7 @@ gulp.task('less', function() {
         .pipe(livereload());
 });
 gulp.task('watch', function() {
-    gulp.watch('./*.less', ['less']);  // Watch all the .less files, then run the less task
+    gulp.watch('./**/*.less', ['less']);  // Watch all the .less files, then run the less task
 });
 
 gulp.task('default', ['watch']); // Default will run the 'entry' watch task
