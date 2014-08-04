@@ -9,7 +9,7 @@ var livereload = require('gulp-livereload');
 var path = require('path');
 
 gulp.task('less', function() {
-    return gulp.src('./style.less')  // only compile the entry file
+    gulp.src('./style.less')  // only compile the entry file
         .pipe(plumber())
         .pipe(less({
           paths: ['./', './overrides/']
